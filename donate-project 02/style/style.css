@@ -3,41 +3,55 @@
    padding: 0;
    font-family: 'inter';
 }
-.header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100vh;
-    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),url(../donate-today/images/donation2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 .title{
     text-align: center;
     font-size: 35px;
     margin-bottom: 20px;
 }
-.header-title{
-    color: #fff;
-}
-
 .description{
-    color: #fff;
+    color: #707070;
     font-size: 16px;
     text-align: center;
     font-family: 'popins';
     margin-bottom: 20px;
 }
-button{
-    text-align: center;
-}
+
 .btn{
     background-color: #FF5959;
-    padding: 8px 8px;
+    padding: 10px 10px;
     border-radius: 5px;
     border: none;
+    color: #fff;
+}
+/* Bannner */
+.header{
+    background: #FFF8F3;
+    background-image: url(../donate-today/hardy/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+.donate-btn{
+    background: #FF5959;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.watch-btn{
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 10px;
 }
 /* Donate Today */
 
@@ -97,7 +111,7 @@ button{
 }
 .plan{
     width: 20%;
-    background-color: red;
+    /* background-color: red; */
     margin: 5px;
     border-radius: 5px;
     padding: 40px 15px;
@@ -126,7 +140,7 @@ button{
 }
 .fa-solid{
     margin-bottom: 15px;
-    border: 1px solid #121212;
+    /* border: 1px solid #121212; */
     padding: 2px;
 }
 
@@ -155,7 +169,7 @@ button{
 .donation-img{
     height: 300px;
     width: 300px;
-    background-image: url(../donate-today/images/donation6.jpg);
+    background-image: url(../donate-today/images/donation9.jpg);
     background-size: cover;
     border-radius: 5px;
 }
