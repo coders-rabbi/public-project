@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #06122c;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.semicircle{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(40deg, transparent, transparent 50%,#ffffff);
+    border-radius: 50%;
+}

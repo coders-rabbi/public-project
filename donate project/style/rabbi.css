@@ -1,0 +1,14 @@
+.rabbi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    background: green;
+}
+.rabbi2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
