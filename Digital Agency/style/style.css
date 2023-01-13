@@ -102,6 +102,7 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
+    padding: 20px 0px 100px 0px;
 }
 .service-list-btn{
     border-radius: 30px;
@@ -146,7 +147,7 @@
 }
 .details-btn{
     border-radius: 30px;
-    color: red;
+    color: #000;
     font-weight: 500;
 }
 .service-item{
@@ -165,4 +166,152 @@
     height: 100px;
     width: 100px;
     padding: 20px;
+}
+/* Appointment Section style  */
+.appointment{
+    background: aqua;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px 20px;
+    margin-top: -80px;
+}
+.apppointment-call{
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-right: 2px solid gray;
+}
+.call-info{
+    padding: 10px;
+}
+.call-info h6{
+    margin-bottom: 20px;
+    /* font-size: px; */
+}
+.apppointment-call img{
+    width: 100px;
+}
+.appointment-description{
+    padding: 10px;
+    color: #000;
+    font-size: 16px;
+    text-decoration: wrap;
+}
+.appointment-btn{
+    /* padding: 10px; */
+    border-radius: 30px;
+    color: #000;
+    font-weight: 600;
+}
+
+/* Blog section style  */
+.blog{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.blog-head{
+    margin: 50px 0px 20px;
+    font-size: 50px;
+    /* color: red; */
+}
+.blog-container{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    padding: 0px 80px;
+    margin-top: 80px;
+}
+.blog-item{
+    /* background: sienna; */
+    box-shadow: 4px 4px 8px grey;
+    border-radius: 10px;
+    height: 450px;
+    text-align: left;
+}
+.blog-item img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.blog-title{
+    padding: 20px 20px 10px 20px;
+    color: rgb(54, 53, 53);
+    font-size: 25px
+}
+.blog-description{
+    color: rgb(76, 72, 72);
+    margin-top: 15px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+/* Footer section start  */
+.footer{
+    padding: 100px 0px 0px;
+    height: 70vh;
+    background: linear-gradient(45deg,
+    rgba(3, 3, 3, 0.75),
+    rgba(0, 0, 0, 0.95)),url(../image/footer-bg.png);
+}
+.footer-info{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo,
+.footer-menu,
+.footer-support,
+.footer-contact
+{
+    color: #fff;
+}
+.footer-description{
+    font-size: 20px;
+    line-height: 25px;
+    margin: 15px 0px;
+}
+.social-icon img{
+    width: 30px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.footer-menu>ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footer-menu>ul li a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.footer-support>ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footer-support>ul li a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.footer-title{
+    margin: 0px 0px 30px;
+    font-size: 25px;
+}
+hr{
+    background: gray;
+}
+.copy{
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 200px;
+}
+.copyright{
+    font-size: 18px;
+    margin-top: 15px;
 }
