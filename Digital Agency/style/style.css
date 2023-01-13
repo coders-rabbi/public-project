@@ -11,9 +11,13 @@
 }
 .description{
     font-size: 22px;
-    padding: 10px;
-    margin: auto;
+    line-height: 30px;
+    margin-bottom: 20px;
 }
+.title{
+    font-size: 40px;
+}
+
  /* Header Section style start */
 
 .nav-container{
@@ -68,7 +72,7 @@
     font-size: 70px;
     margin-bottom: 20px;
 }
-.tile-digital{
+.color-title{
     color: aqua;
 }
 .header-description{
@@ -86,4 +90,79 @@
 }
 .hire-us-btn{
     margin-right: 10px;
+}
+/* Service section style  */
+
+.service{
+    height: 100vh;
+    background: linear-gradient(45deg,
+    rgba(3, 3, 3, 0.75),
+    rgba(0, 0, 0, 0.95)),url(../image/footer-bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.service-list-btn{
+    border-radius: 30px;
+    color: gray;
+}
+.service-info,
+.service-item{
+    width: 50%;
+    text-align: left;
+}
+.service-info{
+    margin-left: 20px;
+    color: #fff;
+}
+.service-title{
+    margin: 30px 0;
+}
+.service-info>ul li{
+    list-style: none;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.detials{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.icon-author{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    border-right: 2px solid rgb(245, 44, 44);
+}
+.icon-author>img{
+    width: 25%;
+    border-radius: 50%;
+}
+.icon-info{
+    margin-left: 15px;
+}
+.details-btn{
+    border-radius: 30px;
+    color: red;
+    font-weight: 500;
+}
+.service-item{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    gap: 20px;
+    padding: 50px;
+}
+.box{
+    background: #fff;
+    text-align: center;
+    padding: 50px;
+    border-radius: 8px;
+}
+.box img{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
 }
