@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.btn{
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.description{
+    font-size: 22px;
+    padding: 10px;
+    margin: auto;
+}
+ /* Header Section style start */
+
+.nav-container{
+    display: flex;
+    background: #ABABAB;
+    justify-content: space-around;
+    padding: 15px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-tite{
+    color: aqua;
+    font-size: 25px;
+    font-weight: 600;
+}
+.menu-item>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.menu-item li{
+    margin-left: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+.item{
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 19px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.banner{
+    height: 100vh;
+    background: linear-gradient(45deg,
+    rgba(245,70,66, 0.75),
+    rgba(8,83,156, 0.75)),url(../image/background.jpg);
+    background-size: cover;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+}
+.banner-item{
+    margin: 0 auto;
+}
+.banner-title{
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.tile-digital{
+    color: aqua;
+}
+.header-description{
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.banner-button{
+    text-align: center;
+}
+.discover-more-btn{
+    background: aqua;
+    margin-right: 10px;
+}
+.hire-us-btn{
+    margin-right: 10px;
+}
